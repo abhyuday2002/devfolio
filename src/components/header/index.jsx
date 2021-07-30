@@ -39,9 +39,9 @@ const Header = ({ metadata = {}, noBlog = false }) => {
             <li className={classes.item}>
               <a
                 className={classes.link}
-                href={`https://twitter.com/${twitter}`}
+                href={`https://stackoverflow.com/users/14404159/${twitter}`}
               >
-                Twitter
+                Stack-Overflow
               </a>
             </li>
           )}

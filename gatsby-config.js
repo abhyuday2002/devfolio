@@ -9,13 +9,44 @@ module.exports = {
     // Description that goes under your name in main bio
     description: `Incoming CS Freshman at UArizona | Undergrad Researc Assistant`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `abhyuday-singh`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/abhyuday2002`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/abhyudaysingh31/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `I am an incoming freshman planning to major in Computer Science at University of Arizona. I am also an Undergrad Research Assistant at Masel Lab, University of Arizona where I am working on Bioinformatics related research. I am passionate about CS and Biology and want to explore the intersection of both the fields in future.`,
+    // Optional: List your education, they must have `name` and `date attended`. `link` is optional.
+    education: [
+      {
+        name: 'University of Arizona',
+        description: 'BS in Computer Science, May 2025(Expected)',
+        link: '',
+      },
+      {
+        name: 'Delhi Public School, Bhilai',
+        description: 'High School Diploma, GPA: 4.0, Mar 2016 - Jun 2020',
+        link: '',
+      },
+    ],
+    // Optional: List your experience, they must have `name` and `description`. `link` is optional.
+    experience: [
+      {
+        name: 'Acme Corp',
+        description: 'Full-Stack Developer, February 2020 - Present',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
+      {
+        name: 'Globex Corp',
+        description: 'Full-Stack Developer, December 2017 - February 2020',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
+      {
+        name: 'Hooli',
+        description: 'Full-Stack Developer, May 2015 - December 2017',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
+    ],
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -34,24 +65,6 @@ module.exports = {
         name: 'Another Cool Project',
         description:
           'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-    ],
-    // Optional: List your experience, they must have `name` and `description`. `link` is optional.
-    experience: [
-      {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
     ],
